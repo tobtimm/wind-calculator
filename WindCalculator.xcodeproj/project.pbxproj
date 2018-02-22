@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF8A7D40203F449800AD64C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8A7D3F203F449800AD64C5 /* AppDelegate.m */; };
+		FF8A7D43203F449800AD64C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8A7D42203F449800AD64C5 /* ViewController.m */; };
+		FF8A7D46203F449800AD64C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8A7D44203F449800AD64C5 /* Main.storyboard */; };
+		FF8A7D48203F449800AD64C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8A7D47203F449800AD64C5 /* Assets.xcassets */; };
+		FF8A7D4B203F449800AD64C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8A7D49203F449800AD64C5 /* LaunchScreen.storyboard */; };
+		FF8A7D4E203F449800AD64C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8A7D4D203F449800AD64C5 /* main.m */; };
+		FF8A7D58203F449800AD64C5 /* WindCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8A7D57203F449800AD64C5 /* WindCalculatorTests.m */; };
+		FF8A7D63203F449800AD64C5 /* WindCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8A7D62203F449800AD64C5 /* WindCalculatorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF8A7D54203F449800AD64C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8A7D33203F449800AD64C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF8A7D3A203F449800AD64C5;
+			remoteInfo = WindCalculator;
+		};
+		FF8A7D5F203F449800AD64C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8A7D33203F449800AD64C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF8A7D3A203F449800AD64C5;
+			remoteInfo = WindCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF8A7D3B203F449800AD64C5 /* WindCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8A7D3E203F449800AD64C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF8A7D3F203F449800AD64C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF8A7D41203F449800AD64C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF8A7D42203F449800AD64C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF8A7D45203F449800AD64C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF8A7D47203F449800AD64C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF8A7D4A203F449800AD64C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF8A7D4C203F449800AD64C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8A7D4D203F449800AD64C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF8A7D53203F449800AD64C5 /* WindCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8A7D57203F449800AD64C5 /* WindCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindCalculatorTests.m; sourceTree = "<group>"; };
+		FF8A7D59203F449800AD64C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8A7D5E203F449800AD64C5 /* WindCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8A7D62203F449800AD64C5 /* WindCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindCalculatorUITests.m; sourceTree = "<group>"; };
+		FF8A7D64203F449800AD64C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF8A7D38203F449800AD64C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8A7D50203F449800AD64C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8A7D5B203F449800AD64C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF8A7D32203F449800AD64C5 = {
+			isa = PBXGroup;
+			children = (
+				FF8A7D3D203F449800AD64C5 /* WindCalculator */,
+				FF8A7D56203F449800AD64C5 /* WindCalculatorTests */,
+				FF8A7D61203F449800AD64C5 /* WindCalculatorUITests */,
+				FF8A7D3C203F449800AD64C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF8A7D3C203F449800AD64C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF8A7D3B203F449800AD64C5 /* WindCalculator.app */,
+				FF8A7D53203F449800AD64C5 /* WindCalculatorTests.xctest */,
+				FF8A7D5E203F449800AD64C5 /* WindCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF8A7D3D203F449800AD64C5 /* WindCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				FF8A7D3E203F449800AD64C5 /* AppDelegate.h */,
+				FF8A7D3F203F449800AD64C5 /* AppDelegate.m */,
+				FF8A7D41203F449800AD64C5 /* ViewController.h */,
+				FF8A7D42203F449800AD64C5 /* ViewController.m */,
+				FF8A7D44203F449800AD64C5 /* Main.storyboard */,
+				FF8A7D47203F449800AD64C5 /* Assets.xcassets */,
+				FF8A7D49203F449800AD64C5 /* LaunchScreen.storyboard */,
+				FF8A7D4C203F449800AD64C5 /* Info.plist */,
+				FF8A7D4D203F449800AD64C5 /* main.m */,
+			);
+			path = WindCalculator;
+			sourceTree = "<group>";
+		};
+		FF8A7D56203F449800AD64C5 /* WindCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF8A7D57203F449800AD64C5 /* WindCalculatorTests.m */,
+				FF8A7D59203F449800AD64C5 /* Info.plist */,
+			);
+			path = WindCalculatorTests;
+			sourceTree = "<group>";
+		};
+		FF8A7D61203F449800AD64C5 /* WindCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF8A7D62203F449800AD64C5 /* WindCalculatorUITests.m */,
+				FF8A7D64203F449800AD64C5 /* Info.plist */,
+			);
+			path = WindCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF8A7D3A203F449800AD64C5 /* WindCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8A7D67203F449800AD64C5 /* Build configuration list for PBXNativeTarget "WindCalculator" */;
+			buildPhases = (
+				FF8A7D37203F449800AD64C5 /* Sources */,
+				FF8A7D38203F449800AD64C5 /* Frameworks */,
+				FF8A7D39203F449800AD64C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WindCalculator;
+			productName = WindCalculator;
+			productReference = FF8A7D3B203F449800AD64C5 /* WindCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF8A7D52203F449800AD64C5 /* WindCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8A7D6A203F449800AD64C5 /* Build configuration list for PBXNativeTarget "WindCalculatorTests" */;
+			buildPhases = (
+				FF8A7D4F203F449800AD64C5 /* Sources */,
+				FF8A7D50203F449800AD64C5 /* Frameworks */,
+				FF8A7D51203F449800AD64C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF8A7D55203F449800AD64C5 /* PBXTargetDependency */,
+			);
+			name = WindCalculatorTests;
+			productName = WindCalculatorTests;
+			productReference = FF8A7D53203F449800AD64C5 /* WindCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF8A7D5D203F449800AD64C5 /* WindCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8A7D6D203F449800AD64C5 /* Build configuration list for PBXNativeTarget "WindCalculatorUITests" */;
+			buildPhases = (
+				FF8A7D5A203F449800AD64C5 /* Sources */,
+				FF8A7D5B203F449800AD64C5 /* Frameworks */,
+				FF8A7D5C203F449800AD64C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF8A7D60203F449800AD64C5 /* PBXTargetDependency */,
+			);
+			name = WindCalculatorUITests;
+			productName = WindCalculatorUITests;
+			productReference = FF8A7D5E203F449800AD64C5 /* WindCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF8A7D33203F449800AD64C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Tobias Timm";
+				TargetAttributes = {
+					FF8A7D3A203F449800AD64C5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FF8A7D52203F449800AD64C5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF8A7D3A203F449800AD64C5;
+					};
+					FF8A7D5D203F449800AD64C5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF8A7D3A203F449800AD64C5;
+					};
+				};
+			};
+			buildConfigurationList = FF8A7D36203F449800AD64C5 /* Build configuration list for PBXProject "WindCalculator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF8A7D32203F449800AD64C5;
+			productRefGroup = FF8A7D3C203F449800AD64C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF8A7D3A203F449800AD64C5 /* WindCalculator */,
+				FF8A7D52203F449800AD64C5 /* WindCalculatorTests */,
+				FF8A7D5D203F449800AD64C5 /* WindCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF8A7D39203F449800AD64C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8A7D4B203F449800AD64C5 /* LaunchScreen.storyboard in Resources */,
+				FF8A7D48203F449800AD64C5 /* Assets.xcassets in Resources */,
+				FF8A7D46203F449800AD64C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8A7D51203F449800AD64C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8A7D5C203F449800AD64C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF8A7D37203F449800AD64C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8A7D43203F449800AD64C5 /* ViewController.m in Sources */,
+				FF8A7D4E203F449800AD64C5 /* main.m in Sources */,
+				FF8A7D40203F449800AD64C5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8A7D4F203F449800AD64C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8A7D58203F449800AD64C5 /* WindCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8A7D5A203F449800AD64C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8A7D63203F449800AD64C5 /* WindCalculatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF8A7D55203F449800AD64C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF8A7D3A203F449800AD64C5 /* WindCalculator */;
+			targetProxy = FF8A7D54203F449800AD64C5 /* PBXContainerItemProxy */;
+		};
+		FF8A7D60203F449800AD64C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF8A7D3A203F449800AD64C5 /* WindCalculator */;
+			targetProxy = FF8A7D5F203F449800AD64C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF8A7D44203F449800AD64C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8A7D45203F449800AD64C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF8A7D49203F449800AD64C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8A7D4A203F449800AD64C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF8A7D65203F449800AD64C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF8A7D66203F449800AD64C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF8A7D68203F449800AD64C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ97F7UV2V;
+				INFOPLIST_FILE = WindCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = timm.WindCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF8A7D69203F449800AD64C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ97F7UV2V;
+				INFOPLIST_FILE = WindCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = timm.WindCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF8A7D6B203F449800AD64C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ97F7UV2V;
+				INFOPLIST_FILE = WindCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = timm.WindCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindCalculator.app/WindCalculator";
+			};
+			name = Debug;
+		};
+		FF8A7D6C203F449800AD64C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ97F7UV2V;
+				INFOPLIST_FILE = WindCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = timm.WindCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindCalculator.app/WindCalculator";
+			};
+			name = Release;
+		};
+		FF8A7D6E203F449800AD64C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ97F7UV2V;
+				INFOPLIST_FILE = WindCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = timm.WindCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WindCalculator;
+			};
+			name = Debug;
+		};
+		FF8A7D6F203F449800AD64C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ97F7UV2V;
+				INFOPLIST_FILE = WindCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = timm.WindCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WindCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF8A7D36203F449800AD64C5 /* Build configuration list for PBXProject "WindCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8A7D65203F449800AD64C5 /* Debug */,
+				FF8A7D66203F449800AD64C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8A7D67203F449800AD64C5 /* Build configuration list for PBXNativeTarget "WindCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8A7D68203F449800AD64C5 /* Debug */,
+				FF8A7D69203F449800AD64C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8A7D6A203F449800AD64C5 /* Build configuration list for PBXNativeTarget "WindCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8A7D6B203F449800AD64C5 /* Debug */,
+				FF8A7D6C203F449800AD64C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8A7D6D203F449800AD64C5 /* Build configuration list for PBXNativeTarget "WindCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8A7D6E203F449800AD64C5 /* Debug */,
+				FF8A7D6F203F449800AD64C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF8A7D33203F449800AD64C5 /* Project object */;
+}
